@@ -1,0 +1,26 @@
+/**index.wxss**/
+
+.userinfo {
+  margin-top: 50rpx;
+  margin-left: 30rpx;
+}
+
+.userinfo-nickname {
+  color: rgb(5, 7, 17);
+}
+
+.header-title {
+  text-align: center;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 31rpx;
+  font-weight: 600;
+  /*border: 1px solid red;*/
+}
+.usermotto {
+  margin-top: 200px;
+}
+
+page {
+  background-color:#fffee9
+}

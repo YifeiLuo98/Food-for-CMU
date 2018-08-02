@@ -1,0 +1,22 @@
+<!--components/foodList/foodList.wxml-->
+<view class="foodList">
+  <view class="foodImage">
+    <image src="{{foodImage}}" class="foodImage"/>
+  </view>
+  
+  <view class="foodInfo">
+    <view class="restaurantName">{{restaurantName}}</view>
+    <view class="entree">主食：{{entree}}</view>
+    <view class="side">配菜：{{side}}</view>
+    <view class="beverage">饮料：{{beverage}}</view>
+    <view class="price">价格：{{price}}美元</view>
+    <view class="pickupLocation">取餐地点：{{pickupLocation}}</view>
+    <view class="pickupTime">取餐时间：{{pickupTime}}</view>
+  </view>
+
+  <view class="extraInfo">
+    <view wx:if="{{howManyLeft>0}}" calss="howManyLeft">
+        富余{{howManyLeft}}份
+    </view>
+  </view>
+</view>

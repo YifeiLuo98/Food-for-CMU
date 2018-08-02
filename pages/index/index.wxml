@@ -1,0 +1,34 @@
+<!--index.wxml-->
+
+<view class="section1">
+    <view class="userinfo">
+      <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 点击授权 </button>
+      <block wx:else>
+        <!--<image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>-->
+        <text class="userinfo-nickname">{{userInfo.nickName}}您好</text>
+      </block>
+    </view>
+</view>
+
+<view class="header-title">2018年7月24日午餐</view>
+
+<view class="Foods">
+  <foodList 
+    restaurantName="百家香"
+    foodImage="http://img4.imgtn.bdimg.com/it/u=1688893582,2780227480&fm=27&gp=0.jpg"
+    entree="水煮鱼"
+    side="青菜，土豆丝"
+    beverage="可乐或者骨头汤"
+    price="8"
+    pickupLocation="图书馆后面"
+    pickupTime="11:50AM"
+    howManyLeft="10">
+  </foodList>
+</view>
+<!--<text>{{food[0].name}}</text>-->
+<wxc-loadmore is-end="{{true}}"></wxc-loadmore>
+  <!--<view class="usermotto">
+    <text bindtap="bindViewTap" class="user-motto">{{motto}}</text>
+  </view>--->
+  
+

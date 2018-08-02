@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText":"Food for CMU",
+  "backgroundColor":"#5eeffe",
+
+
+  "usingComponents": {
+    "wxc-loadmore": "/components/wxc-loadmore/wxc-loadmore",
+    "foodList": "/components/foodList/foodList"
+  }
+}

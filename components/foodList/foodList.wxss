@@ -1,0 +1,45 @@
+/* components/foodList/foodList.wxss */
+
+.foodList {
+  font-size: 25rpx;
+  display: flex;
+  width: 100%;
+  padding: 10rpx 0;
+  border-bottom: 1rpx solid #ECECEC;
+  color: #6D6D6D;
+  justify-content: space-between;
+  /*border: 1px solid red;*/
+}
+
+.restaurantName {
+  color: black;
+  font-size: 30rpx;
+  margin-bottom: 10rpx;
+}
+
+.foodImage {
+  width: 230rpx;
+  height: 160rpx;
+  margin-top: 20rpx;
+  margin-left: 15rpx;
+}
+
+.foodInfo {
+  margin: 15rpx;
+  margin-left: 40rpx;
+  flex: 1;
+  /*border: 1px solid red;*/
+}
+
+.entree .side .beverage .price .pickupLocation .pickupTime {
+  width: 150rpx;
+  height: 50rpx;
+  margin-left: 50rpx;
+}
+
+.extraInfo {
+  margin-right: 30rpx;
+  margin-top: 70rpx;
+  font-size: 30rpx;
+  color: rgb(5, 3, 97);
+}
